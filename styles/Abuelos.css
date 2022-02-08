@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Roboto+Slab:wght@900&display=swap');
+
+*{
+   
+    padding: 0;
+}
+
+body{
+    background-color: beige;
+    margin: 50px;
+    border: 1px solid rgb(206, 194, 194);
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+h1{
+    background-color: bisque;
+    margin-left: 20%;
+    margin-right: 20%;
+    color:coral;
+    font-size: 70px;
+    text-align: center;
+}
+
+h1 + p{
+    background-color: white;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: rgb(110, 109, 109);
+    border-radius: 10px;
+}
+
+.enlaces{
+    border-radius: 5px;
+    margin-left: 30px;
+}
+
+.enlaces a{
+    color: black;
+    text-decoration: none;
+}
+
+.enlaces a:hover{
+    background-color: rgba(255, 228, 196, 0.658);
+}
+
+.Abu{
+    margin-bottom: 5px;
+    margin-top: 50px;
+    background-color: rgba(44, 222, 228, 0.384);
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.Abu a{
+    color: rgb(17, 60, 139);
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+}
+
+.Abu a:hover{
+    background-color: bisque;
+
+}
+
+.Contenido{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.Intereses{
+    width: 100%;
+    margin-left: 30px;
+}
+
+.enlaces2{
+    margin-top: 20px;
+}
+
+.PPag{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.226);
+}

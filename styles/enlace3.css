@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Roboto+Slab:wght@900&display=swap');
+
+body{
+    margin: 0;
+}
+
+nav{
+    background-color: lightgray;
+    width: 100%;
+}
+
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.menu .lista{
+    display: inline-block;
+}
+
+.lista-r{
+    float: center;
+}
+
+.lista a{
+    text-decoration: none;
+    color: white;
+    padding: 20px 50px;
+    display: block;
+}
+
+.lista a:hover{
+    background-color: rgba(38, 151, 98, 0.637);
+}
+
+.titulo{
+    text-align: center;
+    background-color: rgba(38, 151, 98, 0.637);
+    color: rgb(25, 66, 52);
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 30px;
+}
+
+#Titu1, #Titu2, #Titu3, #Titu4{
+    text-align: center;
+    margin-right: 12%;
+}
+
+.Secc{
+    margin: 30px;
+    padding: 6px;
+    background-color: rgb(8, 184, 184);
+    text-align: left;
+}
+
+h3 ~ p{
+    background-color: white;
+    margin-left: 12%;
+    margin-right:20%;
+    border-radius: 8px;
+}
+
+.Imagen{
+    margin-left: 32%;
+}
+
+.PPag{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.226);
+}
